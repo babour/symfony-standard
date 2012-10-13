@@ -6,3 +6,7 @@ build/
 vendor/
 
 /web/media/
+/bin/doctrine
+/bin/doctrine.php
+/bin/phpcr
+/bin/phpcr.php
