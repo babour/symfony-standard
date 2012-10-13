@@ -14,3 +14,7 @@ web_profiler:
 
 swiftmailer:
     disable_delivery: true
+
+mink:
+    base_url:   http://symfony-standard.lo/app_test.php
+    sahi:       ~

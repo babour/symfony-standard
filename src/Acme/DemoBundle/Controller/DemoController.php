@@ -45,7 +45,14 @@ class DemoController extends Controller
                 $mailer = $this->get('mailer');
                 // .. setup a message and send it
                 // http://symfony.com/doc/current/cookbook/email.html
+                $data = $form->getData();
+                $message = \Swift_Message::newInstance()
+                    ->setSubject('new message')
+                    ->setFrom('this@webmaster.com')
+                    ->setTo($data['email'])
+                    ->setBody($data['message']);
 
+                $mailer->send($message);
                 $this->get('session')->setFlash('notice', 'Message sent!');
 
                 return new RedirectResponse($this->generateUrl('_demo'));

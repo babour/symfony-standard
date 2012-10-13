@@ -14,11 +14,32 @@ class AppKernel extends Kernel
             new Symfony\Bundle\MonologBundle\MonologBundle(),
             new Symfony\Bundle\SwiftmailerBundle\SwiftmailerBundle(),
             new Symfony\Bundle\AsseticBundle\AsseticBundle(),
+
             new Doctrine\Bundle\DoctrineBundle\DoctrineBundle(),
+            new Doctrine\Bundle\PHPCRBundle\DoctrinePHPCRBundle(),
+
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
             new JMS\AopBundle\JMSAopBundle(),
             new JMS\DiExtraBundle\JMSDiExtraBundle($this),
             new JMS\SecurityExtraBundle\JMSSecurityExtraBundle(),
+            new JMS\SerializerBundle\JMSSerializerBundle($this),
+
+            new FOS\UserBundle\FOSUserBundle(),
+            new FOS\FacebookBundle\FOSFacebookBundle(),
+            new FOS\RestBundle\FOSRestBundle(),
+
+            new Liip\ContainerWrapperBundle\LiipContainerWrapperBundle(),
+            new Liip\CacheControlBundle\LiipCacheControlBundle(),
+            new Liip\HelloBundle\LiipHelloBundle(),
+            new Liip\HyphenatorBundle\LiipHyphenatorBundle(),
+            new Liip\ThemeBundle\LiipThemeBundle(),
+            new Liip\ImagineBundle\LiipImagineBundle(),
+            new Liip\DoctrineCacheBundle\LiipDoctrineCacheBundle(),
+            new Liip\MonitorBundle\LiipMonitorBundle(),
+
+//            new Nelmio\ApiDocBundle\NelmioApiDocBundle(),
+
+//            new SimpleThings\FormSerializerBundle\SimpleThingsFormSerializerBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
@@ -26,6 +47,11 @@ class AppKernel extends Kernel
             $bundles[] = new Symfony\Bundle\WebProfilerBundle\WebProfilerBundle();
             $bundles[] = new Sensio\Bundle\DistributionBundle\SensioDistributionBundle();
             $bundles[] = new Sensio\Bundle\GeneratorBundle\SensioGeneratorBundle();
+            if ('test' === $this->getEnvironment()) {
+                $bundles[] = new Liip\FunctionalTestBundle\LiipFunctionalTestBundle();
+            } else {
+                $bundles[] = new JMS\DebuggingBundle\JMSDebuggingBundle($this);
+            }
         }
 
         return $bundles;
@@ -34,5 +60,14 @@ class AppKernel extends Kernel
     public function registerContainerConfiguration(LoaderInterface $loader)
     {
         $loader->load(__DIR__.'/config/config_'.$this->getEnvironment().'.yml');
+    }
+
+    protected function getContainerBaseClass()
+    {
+        if ($this->isDebug()) {
+            return '\JMS\DebuggingBundle\DependencyInjection\TraceableContainer';
+        }
+
+        return parent::getContainerBaseClass();
     }
 }

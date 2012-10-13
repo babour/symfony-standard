@@ -1,6 +1,6 @@
 {
-    "name": "symfony/framework-standard-edition",
-    "description": "The \"Symfony Standard Edition\" distribution",
+    "name": "liip/techtalk-standard-edition",
+    "description": "The \"Liip Techtalk Edition\" distribution",
     "autoload": {
         "psr-0": { "": "src/" }
     },
@@ -9,6 +9,9 @@
         "symfony/symfony": "2.2.*",
         "doctrine/orm": ">=2.2.3,<2.4-dev",
         "doctrine/doctrine-bundle": "1.0.*",
+        "doctrine/phpcr-bundle": "1.0.*",
+        "doctrine/phpcr-odm": "1.0.*",
+        "jackalope/jackalope-doctrine-dbal": "dev-master",
         "twig/extensions": "1.0.*",
         "symfony/assetic-bundle": "2.1.*",
         "symfony/swiftmailer-bundle": "2.1.*",
@@ -17,7 +20,20 @@
         "sensio/framework-extra-bundle": "2.2.*",
         "sensio/generator-bundle": "2.2.*",
         "jms/security-extra-bundle": "1.3.*",
-        "jms/di-extra-bundle": "1.2.*"
+        "jms/di-extra-bundle": "1.2.*",
+        "jms/debugging-bundle": "dev-master",
+        "liip/hello-bundle": "dev-master",
+        "liip/hyphenator-bundle": "dev-master",
+        "liip/theme-bundle": "dev-master",
+        "liip/imagine-bundle": "dev-master",
+        "liip/monitor-bundle": "dev-master",
+        "liip/doctrine-cache-bundle": "dev-master",
+        "liip/cache-control-bundle": "dev-master",
+        "liip/container-wrapper-bundle": "dev-master",
+        "liip/functional-test-bundle": "dev-master",
+        "friendsofsymfony/rest-bundle": "dev-master",
+        "friendsofsymfony/facebook-bundle": "dev-master",
+        "friendsofsymfony/user-bundle": "dev-master"
     },
     "scripts": {
         "post-install-cmd": [
