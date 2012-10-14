@@ -1,6 +1,7 @@
 Symfony Techtalk Edition
 ========================
 
+[![Build Status](https://secure.travis-ci.org/liip-forks/symfony-standard.png?branch=techtalk)](http://travis-ci.org/liip-forks/symfony-standard)
 
 This is a fork of the Symfony Standard Edition that adds various Bundles
 and configuration options that I use for demo purposes.
@@ -8,16 +9,16 @@ and configuration options that I use for demo purposes.
 You can read the original README.md here:
 https://github.com/symfony/symfony-standard/blob/master/README.md
 
-Make sure to switch to the ``techtalk`` branch
+After cloning make sure to switch to the ``techtalk`` branch
 
 ```
 git checkout techtalk
 ```
 
-Then following the installation instructions at the above url.
+Then follow the installation instructions at the above url.
 
-Make sure to ensure that the ``app/cache`` and ``app/logs`` directories are
-write-able for the web server (and also for the CLI):
+As a reminder, make sure to ensure that the ``app/cache`` and ``app/logs``
+directories are write-able for the web server (and also for the CLI):
 http://symfony.com/doc/current/book/installation.html#configuration-and-setup
 
 Please also make the ``web`` dir writeable if you want to try out the
@@ -52,13 +53,11 @@ List of additional bundles and libs:
     * LiipImagineBundle (and imagine lib)
     * LiipDoctrineCacheBundle
     * LiipFunctionalTestBundle
+    * LiipMonitorBundle
 
     * JMSAopBundle (and cg-library)
     * JMSSerializerBundle
     * JMSDebuggingBundle
-
-    * BehatBundle (and behat, buzz)
-    * MinkBundle
 
     * NelmioApiDocBundle
 
