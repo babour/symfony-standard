@@ -38,7 +38,7 @@ class AppKernel extends Kernel
             new Liip\DoctrineCacheBundle\LiipDoctrineCacheBundle(),
             new Liip\MonitorBundle\LiipMonitorBundle(),
 
-//            new Nelmio\ApiDocBundle\NelmioApiDocBundle(),
+            new Nelmio\ApiDocBundle\NelmioApiDocBundle(),
 
 //            new SimpleThings\FormSerializerBundle\SimpleThingsFormSerializerBundle(),
         );
