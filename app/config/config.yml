@@ -199,5 +199,5 @@ liip_doctrine_cache:
             type: apc
 
 liip_monitor:
-#    checks:
-#        php_extensions: [apc, xdebug]
+    checks:
+        php_extensions: [apc, xdebug]
