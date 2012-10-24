@@ -200,4 +200,4 @@ liip_doctrine_cache:
 
 liip_monitor:
     checks:
-        php_extensions: [apc, xdebug]
+        php_extensions: [xdebug]
