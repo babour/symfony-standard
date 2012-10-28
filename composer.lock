@@ -1,5 +1,5 @@
 {
-    "hash": "96697672ddc8df93218320810b2c3dfa",
+    "hash": "62a5c1c5afee4b906a7a989964cd9af2",
     "packages": [
         {
             "name": "Org_Heigl/Hyphenator",
@@ -535,12 +535,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/phpcr-odm",
-                "reference": "c0664db84d956759533bedda803ead7254913eba"
+                "reference": "52eca52e7449f4767afed591eed7fcf3b8f1041a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/doctrine/phpcr-odm/zipball/c0664db84d956759533bedda803ead7254913eba",
-                "reference": "c0664db84d956759533bedda803ead7254913eba",
+                "url": "https://github.com/doctrine/phpcr-odm/zipball/52eca52e7449f4767afed591eed7fcf3b8f1041a",
+                "reference": "52eca52e7449f4767afed591eed7fcf3b8f1041a",
                 "shasum": ""
             },
             "require": {
@@ -558,7 +558,7 @@
                 "midgard/phpcr": ">=1.3",
                 "symfony/yaml": ">=2.0.0,<2.3.0-dev"
             },
-            "time": "1350815736",
+            "time": "1351360813",
             "bin": [
                 "bin/phpcr",
                 "bin/phpcr.php"
@@ -819,12 +819,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSUserBundle",
-                "reference": "fe0f21f6abfe1303c58839c18bedc09135247909"
+                "reference": "4c3dceb4c00b2a287b77aa176f1cba46a378bf63"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/FriendsOfSymfony/FOSUserBundle/zipball/fe0f21f6abfe1303c58839c18bedc09135247909",
-                "reference": "fe0f21f6abfe1303c58839c18bedc09135247909",
+                "url": "https://github.com/FriendsOfSymfony/FOSUserBundle/zipball/4c3dceb4c00b2a287b77aa176f1cba46a378bf63",
+                "reference": "4c3dceb4c00b2a287b77aa176f1cba46a378bf63",
                 "shasum": ""
             },
             "require": {
@@ -845,7 +845,7 @@
                 "doctrine/doctrine-bundle": "*",
                 "doctrine/mongodb-odm-bundle": "*"
             },
-            "time": "1350660447",
+            "time": "1351332254",
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
@@ -927,6 +927,59 @@
                 "image processing",
                 "drawing",
                 "graphics"
+            ]
+        },
+        {
+            "name": "incenteev/composer-parameter-handler",
+            "version": "dev-master",
+            "target-dir": "Incenteev/ParameterHandler",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Incenteev/ParameterHandler.git",
+                "reference": "6b42da93334d1b2977040175c74433470e4def60"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/Incenteev/ParameterHandler/zipball/6b42da93334d1b2977040175c74433470e4def60",
+                "reference": "6b42da93334d1b2977040175c74433470e4def60",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3",
+                "symfony/yaml": ">=2.0,<2.3-dev"
+            },
+            "replace": {
+                "logsafe/composer-parameter-handler": "self.version"
+            },
+            "require-dev": {
+                "composer/composer": "*"
+            },
+            "time": "1351256616",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "installation-source": "source",
+            "autoload": {
+                "psr-0": {
+                    "Incenteev\\ParameterHandler": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Christophe Coevoet",
+                    "email": "stof@notk.org"
+                }
+            ],
+            "description": "Composer script handling your ignored parameter file",
+            "homepage": "https://github.com/Incenteev/ParameterHandler",
+            "keywords": [
+                "parameters management"
             ]
         },
         {
@@ -1487,12 +1540,12 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/liip/LiipCacheControlBundle.git",
-                "reference": "77711857c460e1dc1640aea0b2280efbe5b7b4d0"
+                "reference": "07d85c889c7ec19f98564d5a2385e53f683c0f17"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/liip/LiipCacheControlBundle/zipball/77711857c460e1dc1640aea0b2280efbe5b7b4d0",
-                "reference": "77711857c460e1dc1640aea0b2280efbe5b7b4d0",
+                "url": "https://github.com/liip/LiipCacheControlBundle/zipball/07d85c889c7ec19f98564d5a2385e53f683c0f17",
+                "reference": "07d85c889c7ec19f98564d5a2385e53f683c0f17",
                 "shasum": ""
             },
             "require": {
@@ -1505,7 +1558,7 @@
             "suggest": {
                 "ext-curl": "Used by Varnish Helper to construct requests."
             },
-            "time": "1350976446",
+            "time": "1351148949",
             "type": "symfony-bundle",
             "installation-source": "source",
             "autoload": {
@@ -2029,12 +2082,12 @@
             "source": {
                 "type": "git",
                 "url": "http://github.com/nelmio/NelmioApiDocBundle",
-                "reference": "1ba258e6248ed58d9f263600b3bfd2f115365153"
+                "reference": "9c7577f7c21a65a4cbaa101603275259be574d7d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/nelmio/NelmioApiDocBundle/zipball/1ba258e6248ed58d9f263600b3bfd2f115365153",
-                "reference": "1ba258e6248ed58d9f263600b3bfd2f115365153",
+                "url": "https://github.com/nelmio/NelmioApiDocBundle/zipball/9c7577f7c21a65a4cbaa101603275259be574d7d",
+                "reference": "9c7577f7c21a65a4cbaa101603275259be574d7d",
                 "shasum": ""
             },
             "require": {
@@ -2051,7 +2104,7 @@
                 "symfony/validator": ">=2.1,<2.3-dev",
                 "symfony/yaml": ">=2.1,<2.3-dev"
             },
-            "time": "1351070292",
+            "time": "1351085922",
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
@@ -2145,12 +2198,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpcr/phpcr-utils",
-                "reference": "ba07105cdaa8bc76bf4594ecf6bb68cd1f720fb3"
+                "reference": "47fdcea68ca6e2a3fd2bb86c2c6a8b114ec5baae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/phpcr/phpcr-utils/zipball/ba07105cdaa8bc76bf4594ecf6bb68cd1f720fb3",
-                "reference": "ba07105cdaa8bc76bf4594ecf6bb68cd1f720fb3",
+                "url": "https://github.com/phpcr/phpcr-utils/zipball/47fdcea68ca6e2a3fd2bb86c2c6a8b114ec5baae",
+                "reference": "47fdcea68ca6e2a3fd2bb86c2c6a8b114ec5baae",
                 "shasum": ""
             },
             "require": {
@@ -2158,7 +2211,7 @@
                 "phpcr/phpcr": ">=2.1.0-beta5",
                 "symfony/console": ">=2.0.0,<2.3.0-dev"
             },
-            "time": "1350768537",
+            "time": "1351416455",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -2346,22 +2399,22 @@
         },
         {
             "name": "swiftmailer/swiftmailer",
-            "version": "dev-master",
+            "version": "v4.2.2",
             "source": {
                 "type": "git",
                 "url": "git://github.com/swiftmailer/swiftmailer.git",
-                "reference": "84845f0fa8e38e1c4411c5fb26ba5b80bf5666c9"
+                "reference": "v4.2.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/swiftmailer/swiftmailer/zipball/84845f0fa8e38e1c4411c5fb26ba5b80bf5666c9",
-                "reference": "84845f0fa8e38e1c4411c5fb26ba5b80bf5666c9",
+                "url": "https://github.com/swiftmailer/swiftmailer/zipball/v4.2.2",
+                "reference": "v4.2.2",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.2.4"
             },
-            "time": "1351090951",
+            "time": "2012-10-25 01:30:40",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -2572,12 +2625,12 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/symfony/symfony.git",
-                "reference": "67d9253127c1348d1c910bb94f390d3fdb259201"
+                "reference": "968197367644bf4612e0e7ff2560484cf6ac5bf9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/symfony/symfony/zipball/67d9253127c1348d1c910bb94f390d3fdb259201",
-                "reference": "67d9253127c1348d1c910bb94f390d3fdb259201",
+                "url": "https://github.com/symfony/symfony/zipball/968197367644bf4612e0e7ff2560484cf6ac5bf9",
+                "reference": "968197367644bf4612e0e7ff2560484cf6ac5bf9",
                 "shasum": ""
             },
             "require": {
@@ -2629,7 +2682,7 @@
             "suggest": {
                 "doctrine/data-fixtures": "1.0.*"
             },
-            "time": "1351093287",
+            "time": "1351415994",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -2718,18 +2771,18 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/fabpot/Twig.git",
-                "reference": "61393dc9fb8982110048624aa573aec4aee0b465"
+                "reference": "8dbe803b29548513ada64f71ed481e17b4d74952"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/fabpot/Twig/zipball/61393dc9fb8982110048624aa573aec4aee0b465",
-                "reference": "61393dc9fb8982110048624aa573aec4aee0b465",
+                "url": "https://github.com/fabpot/Twig/zipball/8dbe803b29548513ada64f71ed481e17b4d74952",
+                "reference": "8dbe803b29548513ada64f71ed481e17b4d74952",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.2.4"
             },
-            "time": "1350737598",
+            "time": "1351318999",
             "type": "library",
             "extra": {
                 "branch-alias": {

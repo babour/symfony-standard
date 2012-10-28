@@ -61,6 +61,8 @@ List of additional bundles and libs:
 
     * NelmioApiDocBundle
 
+    * IncenteevParameterHandler
+
 The key Bundle in this list is LiipHelloBundle as it provides usage examples
 for most of the above mentioned Bundles:
 https://github.com/liip/LiipHelloBundle

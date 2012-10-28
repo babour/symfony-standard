@@ -33,18 +33,21 @@
         "liip/container-wrapper-bundle": "dev-master",
         "liip/functional-test-bundle": "dev-master",
         "nelmio/api-doc-bundle": "dev-master",
+        "incenteev/composer-parameter-handler": "1.0.*",
         "friendsofsymfony/rest-bundle": "dev-master",
         "friendsofsymfony/facebook-bundle": "dev-master",
         "friendsofsymfony/user-bundle": "dev-master"
     },
     "scripts": {
         "post-install-cmd": [
+            "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
             "Liip\\MonitorBundle\\Composer\\ScriptHandler::checkHealth"
         ],
         "post-update-cmd": [
+            "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
@@ -56,6 +59,9 @@
     },
     "minimum-stability": "dev",
     "extra": {
+        "incenteev-parameters": {
+            "file": "app/config/parameters.yml"
+        },
         "symfony-app-dir": "app",
         "symfony-web-dir": "web"
     }
