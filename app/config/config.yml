@@ -39,7 +39,6 @@ assetic:
 # Doctrine Configuration
 doctrine:
     dbal:
-        path:     %database_path%
         driver:   %database_driver%
         host:     %database_host%
         port:     %database_port%
@@ -47,6 +46,9 @@ doctrine:
         user:     %database_user%
         password: %database_password%
         charset:  UTF8
+        # if using pdo_sqlite as your database driver, add the path in parameters.yml
+        # e.g. database_path: %kernel.root_dir%/data/data.db3
+        path:     %database_path%
 
     orm:
         auto_generate_proxy_classes: %kernel.debug%
