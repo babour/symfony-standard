@@ -65,10 +65,6 @@ swiftmailer:
 jms_security_extra:
     secure_all_services: false
 
-jms_serializer:
-    handlers:
-        object_based: true
-
 fos_user:
     db_driver: orm
     firewall_name: main
@@ -102,6 +98,8 @@ fos_rest:
     body_listener: true
     param_fetcher_listener: force
     allowed_methods_listener: true
+    access_denied_listener:
+        json: true
     format_listener:
         default_priorities:
             - html
@@ -202,4 +200,4 @@ liip_doctrine_cache:
 
 liip_monitor:
     checks:
-        php_extensions: [xdebug]
+        php_extensions: [pdo, gd]
