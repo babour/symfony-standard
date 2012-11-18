@@ -61,6 +61,8 @@ List of additional bundles and libs:
 
     * NelmioApiDocBundle
 
+    * FSCHateoasBundle
+
     * IncenteevParameterHandler
 
 The key Bundle in this list is LiipHelloBundle as it provides usage examples

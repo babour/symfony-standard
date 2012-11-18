@@ -1,5 +1,5 @@
 {
-    "hash": "62a5c1c5afee4b906a7a989964cd9af2",
+    "hash": "754c5005dc10ac8042e3927d4b8a5e95",
     "packages": [
         {
             "name": "Org_Heigl/Hyphenator",
@@ -882,6 +882,53 @@
             "homepage": "http://friendsofsymfony.github.com",
             "keywords": [
                 "User management"
+            ]
+        },
+        {
+            "name": "fsc/hateoas-bundle",
+            "version": "dev-master",
+            "target-dir": "FSC/HateoasBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TheFootballSocialClub/FSCHateoasBundle",
+                "reference": "ea81643f1e275a7c4e313874dadd42abacd999af"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/TheFootballSocialClub/FSCHateoasBundle/archive/ea81643f1e275a7c4e313874dadd42abacd999af.zip",
+                "reference": "ea81643f1e275a7c4e313874dadd42abacd999af",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "jms/metadata": ">=1.1.0,<1.3-dev",
+                "jms/serializer-bundle": "1.0.x",
+                "symfony/form": ">=2.1,<2.3-dev"
+            },
+            "require-dev": {
+                "doctrine/common": "*",
+                "pagerfanta/pagerfanta": "*",
+                "symfony/framework-bundle": "*",
+                "symfony/class-loader": "*",
+                "symfony/yaml": "*",
+                "symfony/browser-kit": "*"
+            },
+            "time": "1353242862",
+            "type": "symfony-bundle",
+            "installation-source": "source",
+            "autoload": {
+                "psr-0": {
+                    "FSC\\HateoasBundle": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Adrien Brault",
+                    "email": "adrien.brault@gmail.com"
+                }
             ]
         },
         {
@@ -1786,19 +1833,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/liip/LiipHelloBundle",
-                "reference": "6be964ababd05a64bb1e37546fcfc8d73875f857"
+                "reference": "ce5a2680d97c405fcbc190f169d4e35ea4d3087b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/liip/LiipHelloBundle/archive/6be964ababd05a64bb1e37546fcfc8d73875f857.zip",
-                "reference": "6be964ababd05a64bb1e37546fcfc8d73875f857",
+                "url": "https://github.com/liip/LiipHelloBundle/archive/ce5a2680d97c405fcbc190f169d4e35ea4d3087b.zip",
+                "reference": "ce5a2680d97c405fcbc190f169d4e35ea4d3087b",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.2",
                 "symfony/framework-bundle": ">=2.0.14,<=2.3-dev"
             },
-            "time": "1353159770",
+            "time": "1353245205",
             "type": "symfony-bundle",
             "installation-source": "source",
             "autoload": {
@@ -2896,6 +2943,7 @@
         "nelmio/api-doc-bundle": 20,
         "friendsofsymfony/rest-bundle": 20,
         "friendsofsymfony/facebook-bundle": 20,
-        "friendsofsymfony/user-bundle": 20
+        "friendsofsymfony/user-bundle": 20,
+        "fsc/hateoas-bundle": 20
     }
 }

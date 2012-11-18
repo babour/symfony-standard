@@ -29,6 +29,8 @@ class AppKernel extends Kernel
             new FOS\FacebookBundle\FOSFacebookBundle(),
             new FOS\RestBundle\FOSRestBundle(),
 
+            new FSC\HateoasBundle\FSCHateoasBundle(),
+
             new Liip\ContainerWrapperBundle\LiipContainerWrapperBundle(),
             new Liip\CacheControlBundle\LiipCacheControlBundle(),
             new Liip\HelloBundle\LiipHelloBundle(),
