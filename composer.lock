@@ -1902,19 +1902,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/liip/LiipHelloBundle",
-                "reference": "e59f94d7f50ab27bb2f835d47e78c27296da3d1d"
+                "reference": "1eea61d978862a77c072f8f2b00f781ebaa665cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/liip/LiipHelloBundle/archive/e59f94d7f50ab27bb2f835d47e78c27296da3d1d.zip",
-                "reference": "e59f94d7f50ab27bb2f835d47e78c27296da3d1d",
+                "url": "https://github.com/liip/LiipHelloBundle/archive/1eea61d978862a77c072f8f2b00f781ebaa665cf.zip",
+                "reference": "1eea61d978862a77c072f8f2b00f781ebaa665cf",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.2",
                 "symfony/framework-bundle": ">=2.0.14,<=2.3-dev"
             },
-            "time": "1354211847",
+            "time": "1354359927",
             "type": "symfony-bundle",
             "installation-source": "source",
             "autoload": {
