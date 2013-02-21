@@ -8,15 +8,15 @@
         "php": ">=5.3.3",
         "symfony/symfony": "2.2.*",
         "doctrine/orm": ">=2.2.3,<2.4-dev",
-        "doctrine/doctrine-bundle": "1.0.*",
+        "doctrine/doctrine-bundle": "1.2.*",
         "doctrine/doctrine-fixtures-bundle": "dev-master",
         "doctrine/phpcr-bundle": "1.0.*",
         "doctrine/phpcr-odm": "1.0.*",
         "jackalope/jackalope-doctrine-dbal": "dev-master",
         "twig/extensions": "1.0.*",
         "symfony/assetic-bundle": "2.1.*",
-        "symfony/swiftmailer-bundle": "2.1.*",
-        "symfony/monolog-bundle": "2.1.*",
+        "symfony/swiftmailer-bundle": "2.2.*",
+        "symfony/monolog-bundle": "2.2.*",
         "sensio/distribution-bundle": "2.2.*",
         "sensio/framework-extra-bundle": "2.2.*",
         "sensio/generator-bundle": "2.2.*",
@@ -64,6 +64,9 @@
             "file": "app/config/parameters.yml"
         },
         "symfony-app-dir": "app",
-        "symfony-web-dir": "web"
+        "symfony-web-dir": "web",
+        "branch-alias": {
+            "dev-master": "2.3-dev"
+        }
     }
 }
