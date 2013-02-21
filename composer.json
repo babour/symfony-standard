@@ -37,7 +37,8 @@
         "friendsofsymfony/rest-bundle": "dev-master",
         "friendsofsymfony/facebook-bundle": "dev-master",
         "friendsofsymfony/user-bundle": "dev-master",
-        "fsc/hateoas-bundle": "dev-master"
+        "fsc/hateoas-bundle": "dev-master",
+        "sensiolabs/security-checker": "v1.1"
     },
     "scripts": {
         "post-install-cmd": [

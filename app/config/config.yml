@@ -202,3 +202,4 @@ liip_doctrine_cache:
 liip_monitor:
     checks:
         php_extensions: [pdo, gd]
+        security_advisory: ~

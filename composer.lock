@@ -1,5 +1,5 @@
 {
-    "hash": "2d57fd531009cf44f0707667e3a209ad",
+    "hash": "7dff61f0eff4cb86f02f3c69c5a3e192",
     "packages": [
         {
             "name": "Org_Heigl/Hyphenator",
@@ -420,13 +420,13 @@
             "version": "2.3.x-dev",
             "source": {
                 "type": "git",
-                "url": "git://github.com/doctrine/doctrine2.git",
-                "reference": "fdd0af34e6fced967b8751bc3e4792c11ef86d57"
+                "url": "https://github.com/doctrine/doctrine2.git",
+                "reference": "304acf0a1af15ebe049231b84a7630c75ecbe62d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/doctrine2/zipball/fdd0af34e6fced967b8751bc3e4792c11ef86d57",
-                "reference": "fdd0af34e6fced967b8751bc3e4792c11ef86d57",
+                "url": "https://api.github.com/repos/doctrine/doctrine2/zipball/304acf0a1af15ebe049231b84a7630c75ecbe62d",
+                "reference": "304acf0a1af15ebe049231b84a7630c75ecbe62d",
                 "shasum": ""
             },
             "require": {
@@ -483,7 +483,7 @@
                 "database",
                 "orm"
             ],
-            "time": "2013-01-20 19:35:21"
+            "time": "2013-02-21 18:03:42"
         },
         {
             "name": "doctrine/phpcr-bundle",
@@ -779,12 +779,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSRestBundle.git",
-                "reference": "a840cdca720b0998954176d73e619988f2c140af"
+                "reference": "3b8d0a0683e6326673fa6c695d29de13471c5440"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/a840cdca720b0998954176d73e619988f2c140af",
-                "reference": "a840cdca720b0998954176d73e619988f2c140af",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/3b8d0a0683e6326673fa6c695d29de13471c5440",
+                "reference": "3b8d0a0683e6326673fa6c695d29de13471c5440",
                 "shasum": ""
             },
             "require": {
@@ -803,7 +803,7 @@
                 "symfony/yaml": ">=2.1,<2.3-dev"
             },
             "suggest": {
-                "jms/serializer-bundle": "Add support for advanced serialization capabilities, recommended, requires 1.0.*",
+                "jms/serializer-bundle": "Add support for advanced serialization capabilities, recommended, requires 0.11.*",
                 "sensio/framework-extra-bundle": "Add support for route annotations and the view response listener",
                 "symfony/serializer": "Add support for basic serialization capabilities, requires >=2.0,<2.3-dev"
             },
@@ -842,7 +842,7 @@
             "keywords": [
                 "rest"
             ],
-            "time": "2013-02-16 13:08:54"
+            "time": "2013-02-21 17:31:35"
         },
         {
             "name": "friendsofsymfony/user-bundle",
@@ -916,17 +916,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/TheFootballSocialClub/FSCHateoasBundle.git",
-                "reference": "66aa62bdb0ba63db9c1b6e67567d23ca899b7a35"
+                "reference": "23e173a0bf84abd81550a7e190a53f7ba1315272"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/TheFootballSocialClub/FSCHateoasBundle/zipball/66aa62bdb0ba63db9c1b6e67567d23ca899b7a35",
-                "reference": "66aa62bdb0ba63db9c1b6e67567d23ca899b7a35",
+                "url": "https://api.github.com/repos/TheFootballSocialClub/FSCHateoasBundle/zipball/23e173a0bf84abd81550a7e190a53f7ba1315272",
+                "reference": "23e173a0bf84abd81550a7e190a53f7ba1315272",
                 "shasum": ""
             },
             "require": {
                 "jms/metadata": ">=1.1.0,<1.3-dev",
-                "jms/serializer": "1.0.x",
+                "jms/serializer": "0.11.*",
                 "jms/serializer-bundle": "*",
                 "php": ">=5.3.0",
                 "symfony/framework-bundle": ">=2.1,<2.3-dev",
@@ -966,7 +966,7 @@
                     "email": "adrien.brault@gmail.com"
                 }
             ],
-            "time": "2013-02-20 13:51:30"
+            "time": "2013-02-21 15:42:15"
         },
         {
             "name": "imagine/Imagine",
@@ -1592,13 +1592,13 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "git://github.com/schmittjoh/serializer",
-                "reference": "f95ba241ba48e39d2f836e45ccab01a00e336073"
+                "url": "https://github.com/schmittjoh/serializer.git",
+                "reference": "032a4f72c2bd751de66c6d8148c422fbb27b5128"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/schmittjoh/serializer/zipball/f95ba241ba48e39d2f836e45ccab01a00e336073",
-                "reference": "f95ba241ba48e39d2f836e45ccab01a00e336073",
+                "url": "https://api.github.com/repos/schmittjoh/serializer/zipball/032a4f72c2bd751de66c6d8148c422fbb27b5128",
+                "reference": "032a4f72c2bd751de66c6d8148c422fbb27b5128",
                 "shasum": ""
             },
             "require": {
@@ -1623,7 +1623,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0-dev"
+                    "dev-master": "0.11-dev"
                 }
             },
             "autoload": {
@@ -1637,9 +1637,9 @@
             ],
             "authors": [
                 {
-                    "name": "Johannes Schmitt",
+                    "name": "Johannes M. Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "https://github.com/schmittjoh",
+                    "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -1652,7 +1652,7 @@
                 "serialization",
                 "xml"
             ],
-            "time": "2013-02-14 15:25:21"
+            "time": "2013-02-21 12:42:21"
         },
         {
             "name": "jms/serializer-bundle",
@@ -1661,17 +1661,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/schmittjoh/JMSSerializerBundle.git",
-                "reference": "a9a0c45343873982ce3681903b8bf34ceb2a7300"
+                "reference": "ac1a712fd74ce285792ce15eda2ca3252aff64a3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/schmittjoh/JMSSerializerBundle/zipball/a9a0c45343873982ce3681903b8bf34ceb2a7300",
-                "reference": "a9a0c45343873982ce3681903b8bf34ceb2a7300",
+                "url": "https://api.github.com/repos/schmittjoh/JMSSerializerBundle/zipball/ac1a712fd74ce285792ce15eda2ca3252aff64a3",
+                "reference": "ac1a712fd74ce285792ce15eda2ca3252aff64a3",
                 "shasum": ""
             },
             "require": {
                 "jms/di-extra-bundle": ">=1.3",
-                "jms/serializer": "1.*",
+                "jms/serializer": "0.11.*",
                 "php": ">=5.3.2",
                 "symfony/framework-bundle": ">=2.1,<3.0-dev"
             },
@@ -1691,7 +1691,7 @@
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0-dev"
+                    "dev-master": "0.11-dev"
                 }
             },
             "autoload": {
@@ -1720,7 +1720,7 @@
                 "serialization",
                 "xml"
             ],
-            "time": "2013-02-12 08:32:45"
+            "time": "2013-02-21 14:09:43"
         },
         {
             "name": "kriswallsmith/assetic",
@@ -2139,16 +2139,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/liip/LiipMonitor.git",
-                "reference": "1.0.0"
+                "reference": "23a4321dd70bf31f9e4f25fc85aa5131bb5d9594"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/liip/LiipMonitor/zipball/1.0.0",
-                "reference": "1.0.0",
+                "url": "https://api.github.com/repos/liip/LiipMonitor/zipball/23a4321dd70bf31f9e4f25fc85aa5131bb5d9594",
+                "reference": "23a4321dd70bf31f9e4f25fc85aa5131bb5d9594",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
+            },
+            "suggest": {
+                "sensiolabs/security-checker": "Required for Security Advisory Checker"
             },
             "type": "library",
             "extra": {
@@ -2182,7 +2185,7 @@
                 "monitor",
                 "monitoring"
             ],
-            "time": "2013-02-07 21:32:23"
+            "time": "2013-02-21 17:59:18"
         },
         {
             "name": "liip/monitor-bundle",
@@ -2191,12 +2194,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/liip/LiipMonitorBundle.git",
-                "reference": "e87cd3020a0d4a911b7b951db9cd75bf20c94a72"
+                "reference": "cc341137cc00f841abaa92e195bac9847044d7ea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/liip/LiipMonitorBundle/zipball/e87cd3020a0d4a911b7b951db9cd75bf20c94a72",
-                "reference": "e87cd3020a0d4a911b7b951db9cd75bf20c94a72",
+                "url": "https://api.github.com/repos/liip/LiipMonitorBundle/zipball/cc341137cc00f841abaa92e195bac9847044d7ea",
+                "reference": "cc341137cc00f841abaa92e195bac9847044d7ea",
                 "shasum": ""
             },
             "require": {
@@ -2239,7 +2242,7 @@
                 "monitor",
                 "monitoring"
             ],
-            "time": "2013-02-20 14:05:26"
+            "time": "2013-02-21 23:15:26"
         },
         {
             "name": "liip/theme-bundle",
@@ -2296,12 +2299,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "5811217e4cc38f67b8a2241fc1aa277412eb4f64"
+                "reference": "953f21a7d83d19ecb8793e7a59e2395c32a8d480"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/5811217e4cc38f67b8a2241fc1aa277412eb4f64",
-                "reference": "5811217e4cc38f67b8a2241fc1aa277412eb4f64",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/953f21a7d83d19ecb8793e7a59e2395c32a8d480",
+                "reference": "953f21a7d83d19ecb8793e7a59e2395c32a8d480",
                 "shasum": ""
             },
             "require": {
@@ -2350,7 +2353,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2013-02-20 12:37:17"
+            "time": "2013-02-21 10:03:40"
         },
         {
             "name": "nelmio/api-doc-bundle",
@@ -2423,13 +2426,13 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "git://github.com/schmittjoh/php-collection",
-                "reference": "acb02a921bb364f360ce786b13455345063c4a07"
+                "url": "https://github.com/schmittjoh/php-collection.git",
+                "reference": "2b9f71b9261930b05c3cd1d6ee2baa423b830e39"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/schmittjoh/php-collection/zipball/acb02a921bb364f360ce786b13455345063c4a07",
-                "reference": "acb02a921bb364f360ce786b13455345063c4a07",
+                "url": "https://api.github.com/repos/schmittjoh/php-collection/zipball/2b9f71b9261930b05c3cd1d6ee2baa423b830e39",
+                "reference": "2b9f71b9261930b05c3cd1d6ee2baa423b830e39",
                 "shasum": ""
             },
             "require": {
@@ -2454,7 +2457,7 @@
                 {
                     "name": "Johannes M. Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "https://github.com/schmittjoh",
+                    "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -2466,7 +2469,7 @@
                 "sequence",
                 "set"
             ],
-            "time": "2013-01-23 15:16:14"
+            "time": "2013-02-20 19:38:18"
         },
         {
             "name": "phpcr/phpcr",
@@ -2813,6 +2816,50 @@
             "time": "2013-02-05 08:54:29"
         },
         {
+            "name": "sensiolabs/security-checker",
+            "version": "v1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sensiolabs/security-checker.git",
+                "reference": "v1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sensiolabs/security-checker/zipball/v1.1",
+                "reference": "v1.1",
+                "shasum": ""
+            },
+            "require": {
+                "symfony/console": ">=2.0,<3.0"
+            },
+            "bin": [
+                "security-checker"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "SensioLabs\\Security": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien.potencier@gmail.com"
+                }
+            ],
+            "description": "A security checker for your composer.lock",
+            "time": "2013-02-20 20:56:18"
+        },
+        {
             "name": "swiftmailer/swiftmailer",
             "version": "dev-master",
             "source": {
@@ -3043,12 +3090,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "6c5a78ad8ca343802fe554cf40b579fcb9e0fd41"
+                "reference": "2705791d6dc5c3b33b65d3832b1fc8e0a630c4cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/6c5a78ad8ca343802fe554cf40b579fcb9e0fd41",
-                "reference": "6c5a78ad8ca343802fe554cf40b579fcb9e0fd41",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/2705791d6dc5c3b33b65d3832b1fc8e0a630c4cf",
+                "reference": "2705791d6dc5c3b33b65d3832b1fc8e0a630c4cf",
                 "shasum": ""
             },
             "require": {
@@ -3134,7 +3181,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2013-02-19 08:03:14"
+            "time": "2013-02-20 22:12:30"
         },
         {
             "name": "twig/extensions",
@@ -3189,12 +3236,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fabpot/Twig.git",
-                "reference": "ac86c6368c8b1ed27adb436af54d0398b64cab1f"
+                "reference": "15336c154c960f7e55e8b9fc1043ce7764ed7edc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fabpot/Twig/zipball/ac86c6368c8b1ed27adb436af54d0398b64cab1f",
-                "reference": "ac86c6368c8b1ed27adb436af54d0398b64cab1f",
+                "url": "https://api.github.com/repos/fabpot/Twig/zipball/15336c154c960f7e55e8b9fc1043ce7764ed7edc",
+                "reference": "15336c154c960f7e55e8b9fc1043ce7764ed7edc",
                 "shasum": ""
             },
             "require": {
@@ -3230,7 +3277,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2013-02-17 19:51:08"
+            "time": "2013-02-21 06:47:52"
         }
     ],
     "packages-dev": null,
